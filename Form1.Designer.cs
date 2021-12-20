@@ -120,7 +120,7 @@ namespace flashkit_md
             this.consoleBox.ReadOnly = true;
             this.consoleBox.Size = new System.Drawing.Size(463, 324);
             this.consoleBox.TabIndex = 4;
-            this.consoleBox.Text = "Flashkit-MD v1.0\r\n---\r\nProgram by Krikzz\r\nGUI by Flosk\r\n----------\r\n\r\n ";
+            this.consoleBox.Text = "Flashkit-MD v1.0\r\n---\r\nProgram by Krikzz\r\nGUI by Flosk/Tsumari\r\n----------\r\n\r\n ";
             this.consoleBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
@@ -205,7 +205,7 @@ namespace flashkit_md
             this.btn_rd_rom.PressedImage = global::flashkit_md.Properties.Resources.but3;
             this.btn_rd_rom.Size = new System.Drawing.Size(180, 52);
             this.btn_rd_rom.TabIndex = 0;
-            this.btn_rd_rom.Text = "Read ROM";
+            this.btn_rd_rom.Text = "Dump ROM";
             this.btn_rd_rom.UseVisualStyleBackColor = true;
             this.btn_rd_rom.Click += new System.EventHandler(this.btn_rd_rom_Click);
             // 
@@ -228,7 +228,7 @@ namespace flashkit_md
             this.btn_wr_ram.PressedImage = global::flashkit_md.Properties.Resources.but3;
             this.btn_wr_ram.Size = new System.Drawing.Size(180, 52);
             this.btn_wr_ram.TabIndex = 3;
-            this.btn_wr_ram.Text = "Write RAM";
+            this.btn_wr_ram.Text = "Write SRAM";
             this.btn_wr_ram.UseVisualStyleBackColor = true;
             this.btn_wr_ram.Click += new System.EventHandler(this.btn_wr_ram_Click);
             // 
