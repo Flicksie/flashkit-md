@@ -336,6 +336,9 @@ namespace flashkit_md
             Device.disconnect();
         }
 
-
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
