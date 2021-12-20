@@ -123,6 +123,11 @@ namespace flashkit_md
             this.consoleBox.Text = resources.GetString("consoleBox.Text");
             this.consoleBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.Filter = "Megadrive ROM files (*.bin,*.md,*.gen)|*.bin;*.md;*.gen|Super Magic Drive files (" +
+    "*.smd)|*.smd|All files (*.*)|*.*";
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.IndianRed;
