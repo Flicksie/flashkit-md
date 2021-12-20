@@ -100,7 +100,7 @@ namespace flashkit_md
             // progressBar1
             // 
             this.progressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.progressBar1.Location = new System.Drawing.Point(224, 371);
+            this.progressBar1.Location = new System.Drawing.Point(224, 372);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(291, 16);
