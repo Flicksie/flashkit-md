@@ -201,10 +201,10 @@ namespace flashkit_md
                 Device.connect();
                 Device.setDelay(1);
                 
-                if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                if (openFileDialog2.ShowDialog() == DialogResult.OK)
                 {
                     consWriteLine("-----------------------------------------------------");
-                    consWriteLine("Write RAM...");
+                    consWriteLine("Write SRAM...");
                     this.Update();
                     FileStream f = File.OpenRead(openFileDialog1.FileName);
                     ram = new byte[f.Length];
@@ -212,7 +212,7 @@ namespace flashkit_md
                     f.Close();
 
                     ram_size = Cart.getRamSize();
-                    if (ram_size == 0) throw new Exception("RAM is not detected");
+                    if (ram_size == 0) throw new Exception("SRAM is not detected");
                     this.Update();
 
                     ram_size *= 2;

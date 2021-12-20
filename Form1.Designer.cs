@@ -88,6 +88,7 @@ namespace flashkit_md
             this.consoleBox = new System.Windows.Forms.TextBox();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_wr_rom = new flashkit_md.AdvancedImageButton();
@@ -127,6 +128,7 @@ namespace flashkit_md
             // 
             this.openFileDialog1.Filter = "Megadrive ROM files (*.bin,*.md,*.gen)|*.bin;*.md;*.gen|Super Magic Drive files (" +
     "*.smd)|*.smd|All files (*.*)|*.*";
+            this.openFileDialog2.Filter = "Megadrive SRAM files (*.srm)|*.srm|All files (*.*)|*.*";
             // 
             // button1
             // 
@@ -300,6 +302,7 @@ namespace flashkit_md
         private System.Windows.Forms.TextBox consoleBox;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog2;
         private System.Windows.Forms.HelpProvider helpProvider1;
         private AdvancedImageButton btn_rd_rom;
         private AdvancedImageButton btn_wr_rom;
