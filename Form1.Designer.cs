@@ -120,7 +120,7 @@ namespace flashkit_md
             this.consoleBox.ReadOnly = true;
             this.consoleBox.Size = new System.Drawing.Size(463, 324);
             this.consoleBox.TabIndex = 4;
-            this.consoleBox.Text = "Flashkit-MD v1.0\r\n---\r\nProgram by Krikzz\r\nGUI by Flosk/Tsumari\r\n----------\r\n\r\n ";
+            this.consoleBox.Text = resources.GetString("consoleBox.Text");
             this.consoleBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1

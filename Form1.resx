@@ -117,6 +117,50 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="consoleBox.Text" xml:space="preserve">
+    <value>Flashkit-MD v1.0
+•••
+Program by Krikzz
+GUI by Flosk/Tsumari
+•••
+Be sure you have the FT245 USB Driver installed.
+Insert Cartridge / Flashkit MD Card in your Programmer device.
+
+-----------------------------------------------------------------
+• DUMP ROM •
+Read a game cartridge ROM data and save it to a .bin file 
+
+• WRITE  ROM •
+Write a Genesis/MD game ROM to a Flashkit MD Card
+
+• DUMP SRAM •
+Export the cartridge's save file
+
+• WRITE SRAM •
+Write a save file data into a Flashkit MD Card
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</value>
+  </data>
   <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
