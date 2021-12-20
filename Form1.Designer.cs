@@ -100,13 +100,12 @@ namespace flashkit_md
             // progressBar1
             // 
             this.progressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.progressBar1.Location = new System.Drawing.Point(12, 388);
+            this.progressBar1.Location = new System.Drawing.Point(224, 371);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(505, 21);
+            this.progressBar1.Size = new System.Drawing.Size(291, 16);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 3;
-            this.progressBar1.Value = 0;
             // 
             // consoleBox
             // 
@@ -114,13 +113,14 @@ namespace flashkit_md
             this.consoleBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.consoleBox.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.consoleBox.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.consoleBox.Location = new System.Drawing.Point(238, 33);
+            this.consoleBox.Location = new System.Drawing.Point(224, 40);
             this.consoleBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.consoleBox.Multiline = true;
             this.consoleBox.Name = "consoleBox";
             this.consoleBox.ReadOnly = true;
             this.consoleBox.Size = new System.Drawing.Size(463, 324);
             this.consoleBox.TabIndex = 4;
+            this.consoleBox.Text = "Flashkit-MD v1.0\r\n---\r\nProgram by Krikzz\r\nGUI by Flosk\r\n----------\r\n\r\n ";
             this.consoleBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
@@ -130,7 +130,7 @@ namespace flashkit_md
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(656, 7);
+            this.button1.Location = new System.Drawing.Point(669, 9);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(46, 21);
             this.button1.TabIndex = 5;
@@ -146,18 +146,18 @@ namespace flashkit_md
             this.btn_wr_rom.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_wr_rom.FlatAppearance.BorderSize = 0;
             this.btn_wr_rom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_wr_rom.Font = new System.Drawing.Font("Meiryo UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_wr_rom.Font = new System.Drawing.Font("Consolas", 11F);
             this.btn_wr_rom.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.btn_wr_rom.HoverImage = global::flashkit_md.Properties.Resources.but2;
             this.btn_wr_rom.Image = global::flashkit_md.Properties.Resources.rom_in;
             this.btn_wr_rom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_wr_rom.Location = new System.Drawing.Point(11, 96);
+            this.btn_wr_rom.Location = new System.Drawing.Point(10, 104);
             this.btn_wr_rom.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btn_wr_rom.Name = "btn_wr_rom";
-            this.btn_wr_rom.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btn_wr_rom.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btn_wr_rom.PlainImage = null;
             this.btn_wr_rom.PressedImage = global::flashkit_md.Properties.Resources.but3;
-            this.btn_wr_rom.Size = new System.Drawing.Size(217, 56);
+            this.btn_wr_rom.Size = new System.Drawing.Size(180, 52);
             this.btn_wr_rom.TabIndex = 1;
             this.btn_wr_rom.Text = "Write ROM";
             this.btn_wr_rom.UseVisualStyleBackColor = true;
@@ -169,20 +169,20 @@ namespace flashkit_md
             this.btn_rd_ram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_rd_ram.FlatAppearance.BorderSize = 0;
             this.btn_rd_ram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_rd_ram.Font = new System.Drawing.Font("Meiryo UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_rd_ram.Font = new System.Drawing.Font("Consolas", 11F);
             this.btn_rd_ram.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.btn_rd_ram.HoverImage = global::flashkit_md.Properties.Resources.but2;
             this.btn_rd_ram.Image = global::flashkit_md.Properties.Resources.sram_out;
             this.btn_rd_ram.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_rd_ram.Location = new System.Drawing.Point(12, 164);
+            this.btn_rd_ram.Location = new System.Drawing.Point(10, 198);
             this.btn_rd_ram.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btn_rd_ram.Name = "btn_rd_ram";
-            this.btn_rd_ram.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btn_rd_ram.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btn_rd_ram.PlainImage = null;
             this.btn_rd_ram.PressedImage = global::flashkit_md.Properties.Resources.but3;
-            this.btn_rd_ram.Size = new System.Drawing.Size(216, 56);
+            this.btn_rd_ram.Size = new System.Drawing.Size(179, 52);
             this.btn_rd_ram.TabIndex = 2;
-            this.btn_rd_ram.Text = "Read RAM";
+            this.btn_rd_ram.Text = "Dump SRAM";
             this.btn_rd_ram.UseVisualStyleBackColor = true;
             this.btn_rd_ram.Click += new System.EventHandler(this.btn_rd_ram_Click);
             // 
@@ -192,18 +192,18 @@ namespace flashkit_md
             this.btn_rd_rom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_rd_rom.FlatAppearance.BorderSize = 0;
             this.btn_rd_rom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_rd_rom.Font = new System.Drawing.Font("Meiryo UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_rd_rom.Font = new System.Drawing.Font("Consolas", 11F);
             this.btn_rd_rom.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.btn_rd_rom.HoverImage = global::flashkit_md.Properties.Resources.but2;
             this.btn_rd_rom.Image = global::flashkit_md.Properties.Resources.rom_out;
             this.btn_rd_rom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_rd_rom.Location = new System.Drawing.Point(11, 35);
+            this.btn_rd_rom.Location = new System.Drawing.Point(10, 44);
             this.btn_rd_rom.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btn_rd_rom.Name = "btn_rd_rom";
-            this.btn_rd_rom.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btn_rd_rom.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btn_rd_rom.PlainImage = global::flashkit_md.Properties.Resources.but1;
             this.btn_rd_rom.PressedImage = global::flashkit_md.Properties.Resources.but3;
-            this.btn_rd_rom.Size = new System.Drawing.Size(217, 56);
+            this.btn_rd_rom.Size = new System.Drawing.Size(180, 52);
             this.btn_rd_rom.TabIndex = 0;
             this.btn_rd_rom.Text = "Read ROM";
             this.btn_rd_rom.UseVisualStyleBackColor = true;
@@ -215,18 +215,18 @@ namespace flashkit_md
             this.btn_wr_ram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_wr_ram.FlatAppearance.BorderSize = 0;
             this.btn_wr_ram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_wr_ram.Font = new System.Drawing.Font("Meiryo UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_wr_ram.Font = new System.Drawing.Font("Consolas", 11F);
             this.btn_wr_ram.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.btn_wr_ram.HoverImage = global::flashkit_md.Properties.Resources.but2;
             this.btn_wr_ram.Image = global::flashkit_md.Properties.Resources.sram_in;
             this.btn_wr_ram.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_wr_ram.Location = new System.Drawing.Point(12, 224);
+            this.btn_wr_ram.Location = new System.Drawing.Point(10, 258);
             this.btn_wr_ram.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btn_wr_ram.Name = "btn_wr_ram";
-            this.btn_wr_ram.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btn_wr_ram.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btn_wr_ram.PlainImage = null;
             this.btn_wr_ram.PressedImage = global::flashkit_md.Properties.Resources.but3;
-            this.btn_wr_ram.Size = new System.Drawing.Size(217, 56);
+            this.btn_wr_ram.Size = new System.Drawing.Size(180, 52);
             this.btn_wr_ram.TabIndex = 3;
             this.btn_wr_ram.Text = "Write RAM";
             this.btn_wr_ram.UseVisualStyleBackColor = true;
@@ -239,18 +239,18 @@ namespace flashkit_md
             this.btn_check.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_check.FlatAppearance.BorderSize = 0;
             this.btn_check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_check.Font = new System.Drawing.Font("Meiryo UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_check.Font = new System.Drawing.Font("Consolas", 11F);
             this.btn_check.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.btn_check.HoverImage = global::flashkit_md.Properties.Resources.but2;
             this.btn_check.Image = global::flashkit_md.Properties.Resources.cart;
             this.btn_check.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_check.Location = new System.Drawing.Point(12, 295);
+            this.btn_check.Location = new System.Drawing.Point(10, 343);
             this.btn_check.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btn_check.Name = "btn_check";
-            this.btn_check.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btn_check.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btn_check.PlainImage = null;
             this.btn_check.PressedImage = global::flashkit_md.Properties.Resources.but3;
-            this.btn_check.Size = new System.Drawing.Size(216, 56);
+            this.btn_check.Size = new System.Drawing.Size(179, 48);
             this.btn_check.TabIndex = 4;
             this.btn_check.Text = "Cart info";
             this.btn_check.UseVisualStyleBackColor = false;
@@ -263,7 +263,7 @@ namespace flashkit_md
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImage = global::flashkit_md.Properties.Resources.bkg;
             this.CancelButton = this.button1;
-            this.ClientSize = new System.Drawing.Size(725, 419);
+            this.ClientSize = new System.Drawing.Size(725, 405);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_wr_rom);
             this.Controls.Add(this.btn_rd_ram);
