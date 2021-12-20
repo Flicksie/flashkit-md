@@ -13,7 +13,6 @@
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,6 +25,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -104,19 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="32.ico" />
-    <None Include="Resources\bkg.png" />
-    <None Include="Resources\sram_out.png" />
-    <None Include="Resources\sram_in.png" />
-    <None Include="Resources\cart.png" />
-    <None Include="Resources\rom_out.png" />
-    <None Include="Resources\rom_in.png" />
-    <None Include="Resources\rom.png" />
-    <None Include="Resources\but3.png" />
-    <None Include="Resources\but2.png" />
-    <None Include="Resources\but1.png" />
-    <None Include="Resources\Image3.png" />
-    <None Include="Resources\Image2.png" />
-    <None Include="Resources\Image1.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
